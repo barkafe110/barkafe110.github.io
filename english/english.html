@@ -1,215 +1,125 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta charset="utf-8">
-    <title>Bar Kafe</title>
-    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
-    <link rel="stylesheet" href="/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/25190ce31d.js" crossorigin="anonymous"></script>
-  </head>
-  <body>
-    <div class="body">
-      <div class="head">
-        <a href="/index.html" class="gjuha"><b>Shqip</b></a>
-        <a href="https://barkafe110.github.io/"><img src="/images/barkafelogo.png" alt="logo"/></a>
-      </div>
-      <div class="menu">
-        <table>
-            <thead>
-              <th>
-                <h3>Menu</h3>
-              </th>
-            </thead>
-        </table>
-          <div class="row1">
-            <a href="#Kafeteria"><button id="filter" type="button" name="button">Hot Drinks</button></a>
-            <a href="#Freskuse"><button id="filter" type="button" name="button">Cold Drinks</button></a>
-            <a href="#Birra"><button id="filter" type="button" name="button">Beers</button></a>
-            <a href="#Alkolike"><button id="filter" type="button" name="button">Alcoholic</button></a>
-             </div><!--
-          <div class="row2">
-            <a href="#Cocktail"><button id="filter" type="button" name="button">Cocktail</button></a>
-            <a href="#Antipasta"><button id="filter" type="button" name="button">Antipasta</button></a>
-           </div>-->
-      </div>
-      <div class="menu" id="Kafeteria">
-        <table>
-          <tr>
-            <thead>
-            <th colspan="2">Hot Drinks  <i class="fas fa-coffee"></i></th>
-           </thead>
-          </tr>
-          <tr>
-            <td>Coffee</td><td class="shuma">60 Lekë</td>
-          </tr>
-          <tr>
-            <td>Macchiato</td><td class="shuma">60 Lekë</td>
-          </tr>
-          <tr>
-            <td>Hot Tea</td><td class="shuma">60 Lekë</td>
-          </tr>
-          <tr>
-            <td>Frape</td><td class="shuma">120 Lekë</td>
-          </tr>
-          <tr>
-            <td>Hot Chocolate</td><td class="shuma">120 Lekë</td>
-          </tr>
-          <tr>
-            <td>Hot Cocoa</td><td class="shuma">120 Lekë</td>
-          </tr>
-          <tr>
-            <td>Cappuccino</td><td class="shuma">120 Lekë</td>
-          </tr>
-          <tr>
-            <td>Salep</td><td class="shuma">120 Lekë</td>
-          </tr>
-          <tr>
-            <td>Croissant</td><td class="shuma">80 Lekë</td>
-          </tr>
-        </table>
-      </div>
-      <div class="menu" id="Freskuse">
-        <table>
-          <tr>
-            <thead>
-            <th colspan="2">Cold Drinks  <i class="fas fa-glass-whiskey"></i></th>
-            </thead>
-          </tr>
-          <tr>
-            <td>B52</td><td class="shuma">150 Lekë</td>
-          </tr>
-          <tr>
-            <td>Bitter</td><td class="shuma">70 Lekë</td>
-          </tr>
-          <tr>
-            <td>Bravo</td><td class="shuma">120 Lekë</td>
-          </tr>
-          <tr>
-            <td>Amita</td><td class="shuma">150 Lekë</td>
-          </tr>
-          <tr>
-            <td>Coca Cola</td><td class="shuma">120 Lekë</td>
-          </tr>
-          <tr>
-            <td>Fredo Expresso</td><td class="shuma">100 Lekë</td>
-          </tr>
-          <tr>
-          <td>Fredo Cappuccino</td><td class="shuma">120 Lekë</td>
-          </tr>
-          <tr>
-            <td>Cold Chocolate</td><td class="shuma">120 Lekë</td>
-          </tr>
-          <tr>
-            <td>Cold Cocoa</td><td class="shuma">120 Lekë</td>
-          </tr>
-          <tr>
-            <td>Cold Cappuccino</td><td class="shuma">120 Lekë</td>
-          </tr>
-          <tr>
-            <td>Fanta</td><td class="shuma">120 Lekë</td>
-          </tr>
-          <tr>
-            <td>Lemon Soda</td><td class="shuma">120 Lekë</td>
-          </tr>
-          <tr>
-            <td>Red Bull</td><td class="shuma">250 Lekë</td>
-          </tr>
-          <tr>
-            <td>Schweppes</td><td class="shuma">120 Lekë</td>
-          </tr>
-          <tr>
-            <td>Water</td><td class="shuma">60 Lekë</td>
-          </tr>
-          <tr>
-            <td>Vitamin Water</td><td class="shuma">100 Lekë</td>
-          </tr>
-          <tr>
-            <td>Cold Tea</td><td class="shuma">120 Lekë</td>
-          </tr>
-        </table>
-      </div>
-      <div class="menu" id="Birra">
-        <table>
-          <tr>
-            <thead>
-            <th colspan="2">Beers  <i class="fas fa-beer" id="birra"></i></th>
-            </thead>
-          </tr>
-          <tr>
-            <td>Heineken Can 0.33 l</td><td class="shuma">150 Lekë</td>
-          </tr>
-          <tr>
-            <td>Stela Artois</td><td class="shuma">200 Lekë</td>
-          </tr>
-          <tr>
-            <td>Peroni Nastro</td><td class="shuma">200 Lekë</td>
-          </tr>
-          <tr>
-            <td>Peroni 0.50 l</td><td class="shuma">150 Lekë</td>
-          </tr>
-          <tr>
-            <td>Peroni 0.33 l</td><td class="shuma">150 Lekë</td>
-          </tr>
-          <tr>
-            <td>Peroni Can 0.33 l</td><td class="shuma">120 Lekë</td>
-          </tr>
-          <tr>
-            <td>Lowenbraun 0.50 l</td><td class="shuma">150 Lekë</td>
-          </tr>
-          <tr>
-            <td>Lowenbraun 0.33 l</td><td class="shuma">150 Lekë</td>
-          </tr>
-          <tr>
-            <td>Tirana 0.50 l</td><td class="shuma">130 Lekë</td>
-          </tr>
-          <tr>
-            <td>Pils 0.50 l</td><td class="shuma">130 Lekë</td>
-          </tr>
-          <tr>
-            <td>Welf Brau</td><td class="shuma">130 Lekë</td>
-          </tr>
-          <tr>
-            <td>Tuborg</td><td class="shuma">150 Lekë</td>
-          </tr>
-        </table>
-      </div>
-      <div class="menu" id="Alkolike">
-        <table>
-          <tr>
-            <thead>
-            <th colspan="2">Alcoholic  <i class="fas fa-wine-bottle"></i></th>
-          </thead>
-          </tr>
-          <tr>
-            <td>Jack Daniels</td><td class="shuma">250 Lekë</td>
-          </tr>
-          <tr>
-            <td>J&B</td><td class="shuma">200 Lekë</td>
-          </tr>
-          <tr>
-            <td>Jin</td><td class="shuma">200 Lekë</td>
-          </tr>
-          <tr>
-            <td>Fernet</td><td class="shuma">70 Lekë</td>
-          </tr>
-          <tr>
-            <td>Cognac</td><td class="shuma">70 Lekë</td>
-          </tr>
-        </table>
-      </div>
-      <div class="footer">
-        <a href="/index.html" class="gjuha"><b>Shqip</b></a>
-      </div>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bar Cafe - Menu</title>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+  <link rel="stylesheet" href="/style.css">
+  <script src="https://kit.fontawesome.com/25190ce31d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <a href="/" class="gjuha"><b>Shqip</b></a>
+      <img src="/images/barkafelogo.png" alt="Bar Cafe Logo">
+      <h1>BAR CAFE</h1>
+      <h2>Menu</h2>
     </div>
-    <button type="button" id="totop" class="totop" onclick="topFunction()"><i class="fas fa-angle-up"></i></button>
-    <script type="text/javascript">
-      var mybutton = document.getElementById("totop");
-      function topFunction(){
-        document.body.scrollTop = 0;
-        document.documentElement.scrollTop = 0;
+
+    <div class="nav">
+      <a href="#HotDrinks"><button>Hot Drinks</button></a>
+      <a href="#ColdDrinks"><button>Cold Drinks</button></a>
+      <a href="#Beer"><button>Beer</button></a>
+      <a href="#Alcohol"><button>Alcohol</button></a>
+    </div>
+
+    <div class="section" id="HotDrinks">
+      <div class="section-header">
+        <span>Hot Drinks</span>
+        <span><i class="fas fa-coffee"></i></span>
+      </div>
+      <div class="menu-item"><span>Coffee</span><span>60 Lek</span></div>
+      <div class="menu-item"><span>Macchiato</span><span>60 Lek</span></div>
+      <div class="menu-item"><span>Hot Tea</span><span>60 Lek</span></div>
+      <div class="menu-item"><span>Frappe</span><span>120 Lek</span></div>
+      <div class="menu-item"><span>Hot Chocolate</span><span>120 Lek</span></div>
+      <div class="menu-item"><span>Hot Cocoa</span><span>120 Lek</span></div>
+      <div class="menu-item"><span>Cappuccino</span><span>120 Lek</span></div>
+      <div class="menu-item"><span>Salep</span><span>120 Lek</span></div>
+      <div class="menu-item"><span>Brioche</span><span>80 Lek</span></div>
+    </div>
+
+    <div class="section" id="ColdDrinks">
+      <div class="section-header">
+        <span>Cold Drinks</span>
+        <span><i class="fas fa-glass-whiskey"></i></span>
+      </div>
+      <div class="menu-item"><span>B52</span><span>150 Lek</span></div>
+      <div class="menu-item"><span>Bitter</span><span>70 Lek</span></div>
+      <div class="menu-item"><span>Bravo</span><span>120 Lek</span></div>
+      <div class="menu-item"><span>Amita</span><span>150 Lek</span></div>
+      <div class="menu-item"><span>Coca Cola</span><span>120 Lek</span></div>
+      <div class="menu-item"><span>Fredo Espresso</span><span>100 Lek</span></div>
+      <div class="menu-item"><span>Fredo Cappuccino</span><span>120 Lek</span></div>
+      <div class="menu-item"><span>Cold Chocolate</span><span>120 Lek</span></div>
+      <div class="menu-item"><span>Cold Cocoa</span><span>120 Lek</span></div>
+      <div class="menu-item"><span>Cold Cappuccino</span><span>120 Lek</span></div>
+      <div class="menu-item"><span>Fanta</span><span>120 Lek</span></div>
+      <div class="menu-item"><span>Lemon Soda</span><span>120 Lek</span></div>
+      <div class="menu-item"><span>Red Bull</span><span>250 Lek</span></div>
+      <div class="menu-item"><span>Schweppes</span><span>120 Lek</span></div>
+      <div class="menu-item"><span>Juice</span><span>70 Lek</span></div>
+      <div class="menu-item"><span>Ayran</span><span>70 Lek</span></div>
+      <div class="menu-item"><span>Water</span><span>60 Lek</span></div>
+      <div class="menu-item"><span>Vitamin Water</span><span>100 Lek</span></div>
+      <div class="menu-item"><span>Iced Tea</span><span>120 Lek</span></div>
+    </div>
+
+    <div class="section" id="Beer">
+      <div class="section-header">
+        <span>Beer</span>
+        <span><i class="fas fa-beer"></i></span>
+      </div>
+      <div class="menu-item"><span>Heineken Can 0.33 l</span><span>150 Lek</span></div>
+      <div class="menu-item"><span>Stella Artois</span><span>200 Lek</span></div>
+      <div class="menu-item"><span>Peroni Nastro</span><span>200 Lek</span></div>
+      <div class="menu-item"><span>Peroni 0.50 l</span><span>150 Lek</span></div>
+      <div class="menu-item"><span>Peroni 0.33 l</span><span>150 Lek</span></div>
+      <div class="menu-item"><span>Peroni Can 0.33 l</span><span>120 Lek</span></div>
+      <div class="menu-item"><span>Lowenbrau 0.50 l</span><span>150 Lek</span></div>
+      <div class="menu-item"><span>Lowenbrau 0.33 l</span><span>150 Lek</span></div>
+      <div class="menu-item"><span>Tirana 0.50 l</span><span>130 Lek</span></div>
+      <div class="menu-item"><span>Pils 0.50 l</span><span>130 Lek</span></div>
+      <div class="menu-item"><span>Welf Brau</span><span>130 Lek</span></div>
+      <div class="menu-item"><span>Tuborg</span><span>150 Lek</span></div>
+    </div>
+
+    <div class="section" id="Alcohol">
+      <div class="section-header">
+        <span>Alcohol</span>
+        <span><i class="fas fa-wine-bottle"></i></span>
+      </div>
+      <div class="menu-item"><span>Jack Daniels</span><span>250 Lek</span></div>
+      <div class="menu-item"><span>J&B</span><span>200 Lek</span></div>
+      <div class="menu-item"><span>Gin</span><span>200 Lek</span></div>
+      <div class="menu-item"><span>Fernet</span><span>70 Lek</span></div>
+      <div class="menu-item"><span>Cognac</span><span>70 Lek</span></div>
+    </div>
+
+    <footer>
+      <p>© 2025 Bar Cafe | All rights reserved</p>
+    </footer>
+  </div>
+
+  <button type="button" id="totop" class="totop" onclick="topFunction()"><i class="fas fa-angle-up"></i></button>
+  
+  <script>
+    var mybutton = document.getElementById("totop");
+    
+    window.onscroll = function() {
+      if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+        mybutton.classList.add("visible");
+      } else {
+        mybutton.classList.remove("visible");
       }
-    </script>
-  </body>
+    };
+    
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+  </script>
+</body>
 </html>
